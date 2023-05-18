@@ -1,0 +1,59 @@
+.Places {
+    background-image: url("https://media.istockphoto.com/id/1285301614/photo/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel.jpg?s=612x612&w=0&k=20&c=0QW6GnkuFNYcPZhy26XVHuTc2avJTK8u6l_1iT0SlZk=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(50%);
+    filter: opacity(0.9);
+    padding: 30px;
+    text-align: center;
+}
+
+.staticData {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.innerData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.thumb_image {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+}
+
+.placesvisited{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+
+
+.placesvisited>h1 {
+    margin: 100px;
+    border-bottom: 1px solid black;
+    padding:5px 15px;
+}
+
+.innerData>h2 {
+    color: black;
+    font-size: xx-large;
+}
+
+.innerData>h4 {
+    color: black;
+    font-size: large;
+}

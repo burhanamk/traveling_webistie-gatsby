@@ -1,0 +1,114 @@
+.container {
+    background-image: url("https://media.istockphoto.com/id/1285301614/photo/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel.jpg?s=612x612&w=0&k=20&c=0QW6GnkuFNYcPZhy26XVHuTc2avJTK8u6l_1iT0SlZk=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(50%);
+    filter: opacity(0.9);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.sub-heading {
+    margin-top: 20px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 100px;
+    padding: 40px;
+    box-shadow: 1px 1px 1px 1px black;
+    width: 80%;
+}
+
+.form>form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    padding: 20px;
+
+}
+
+.form>form>input {
+    font-size: larger;
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+}
+
+.form>form>input::placeholder {
+    text-align: center;
+    color: black;
+}
+
+.form>form>textarea {
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: larger;
+
+}
+
+.form>form>textarea::placeholder {
+    text-align: center;
+    color: black;
+}
+
+.form>form>input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid blue;
+}
+
+.contact-btn {
+    width: 100px;
+    padding: 10px;
+    margin: 0px auto;
+    background-color: rgb(108, 108, 240);
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-left: 40px;
+}
+
+.contact-details .location {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.contact-details .mobile-detail {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+}
+
+.contact-details .email-detail {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+}

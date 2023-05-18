@@ -1,0 +1,49 @@
+.details{
+    padding: 20px;
+    background-image: url("https://media.istockphoto.com/id/1285301614/photo/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel.jpg?s=612x612&w=0&k=20&c=0QW6GnkuFNYcPZhy26XVHuTc2avJTK8u6l_1iT0SlZk=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(50%);
+    filter: opacity(0.9);
+    border: 1px solid red;
+}
+.details > h2{
+    margin-top: 30px;
+    text-align: center;
+    font-size:xx-large;
+}
+.details > h4{
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+}
+.main_image{
+    width: 40%;
+    height: 300px;
+    margin-bottom: 100px;
+   
+}
+.htmlData{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.htmlData > p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin: 20px 0px;
+}
+.htmlData > h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+    padding: 10px;
+}
+
+
+.project_image{
+    width: 100%;
+}
