@@ -5,7 +5,7 @@ import { Link, graphql } from "gatsby";
 import Img from "gatsby-image"
 
 export default function Places({ data }) {
-  console.log("data", data)
+  // console.log("data", data)
 
   const placeData = data.allMarkdownRemark.nodes
   return (

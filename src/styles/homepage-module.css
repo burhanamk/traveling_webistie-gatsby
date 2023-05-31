@@ -7,19 +7,6 @@
     position: relative;
 }
 
-/* .background::after{
-    content: "Hello its me sanket";
-    padding: 20px;
-    position: absolute;
-    width: 50%;
-    height: 100px;
-    border: 10px solid rgb(255, 0, 0);
-    z-index: 999;
-    top: 90%;
-    left: 25%;
-    background-color: white;
-} */
-
 .background_text {
     width: 300px;
     transform: translate(100%, 100%);

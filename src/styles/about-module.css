@@ -62,6 +62,9 @@
     width: 100%;
     padding: 20px;
 }
+.why_us_image>img {
+    width: 100%;
+}
 
 .why_us_details {
     width: 80%
